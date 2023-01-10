@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "639695769292",
+    "firebase_url": "https://androidtesgps-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "androidtesgps",
+    "storage_bucket": "androidtesgps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639695769292:android:ed3017dd2de5c6cd023c69",
+        "android_client_info": {
+          "package_name": "com.adi.finpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639695769292-v4oteplb9qufqm5gnafjnkpi0mbk90t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7k_CIaLinK6-u64DXoY3qqOfiVXwd_m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639695769292-v4oteplb9qufqm5gnafjnkpi0mbk90t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
