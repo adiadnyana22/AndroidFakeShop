@@ -2,8 +2,6 @@ package com.adi.finpro.recycler_view;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,18 +12,13 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.adi.finpro.AddActivity;
 import com.adi.finpro.DetailActivity;
-import com.adi.finpro.MainActivity;
 import com.adi.finpro.R;
 import com.adi.finpro.model.Product;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.List;
 
 public class AdapterProduct extends RecyclerView.Adapter<AdapterProduct.ViewHolder> {
@@ -53,7 +46,7 @@ public class AdapterProduct extends RecyclerView.Adapter<AdapterProduct.ViewHold
 
         Picasso.get().load(data.getImageLink()).into(holder.image_product);
         holder.text_name.setText(data.getName());
-        holder.text_price.setText("Rp. "+ String.format("%,d", data.getPrice()));
+        holder.text_price.setText("Rp. " + String.format("%,d", data.getPrice()));
 
         holder.card_view.setOnClickListener(new View.OnClickListener() {
             @Override
